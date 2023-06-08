@@ -68,7 +68,7 @@ int main(int argc, char *argv[]){
 	for (int i = 0; i < N; i++){
 		for (int j = 0; j < k; j++){
 			// i*k + j --> elemento j de la lista i.
-			host_Nlistas[i*k+j] = i;
+			host_Nlistas[i*k+j] = i+j;
 		}
 	}
 
